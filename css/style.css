@@ -8,8 +8,6 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f8f9fa;
-  padding-bottom: 50px;
-  padding-top: 60px;
 }
 
 header {
@@ -165,6 +163,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+  #about {
+    margin-top: 100px;
+  }
   .projects-grid {
     grid-template-columns: 1fr;
   }
